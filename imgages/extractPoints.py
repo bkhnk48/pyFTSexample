@@ -4,6 +4,7 @@ from skimage.io import imsave, imread
 from matplotlib import pyplot as plt
 
 img = io.imread('map.png', as_gray=True)
+#img = io.imread('polygons.png', as_gray=True)
 # do thresholding
 mask = img < 0.7
 
